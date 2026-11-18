@@ -1,5 +1,5 @@
 name: Deploy Project
-on: push
+on: [push, workflow_dispatch]
 jobs:
   test:
     # The environment has easy access to the code, but they do not run inside it.
